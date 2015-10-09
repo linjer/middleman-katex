@@ -6,7 +6,6 @@ class Katex < ::Middleman::Extension
   # option :my_option, 'default', 'An example option'
   option :render_at_build, true,
          'Option to control if equations are rendered during middleman build or during client loading'
-  option :js_dir, nil, 'Specify location of js files which may be used for client side rendering'
 
   def initialize(app, options_hash={}, &block)
     # Call super to build options from the options_hash

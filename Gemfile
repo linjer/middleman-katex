@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'middleman', github: 'middleman/middleman'
+
 # Specify your gem's dependencies in middleman-katex.gemspec
 gemspec
 
