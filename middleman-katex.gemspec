@@ -19,10 +19,13 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 2.1.1'
 
   s.add_runtime_dependency 'middleman-core', ['>= 4.0.0.rc.2']
+  s.add_runtime_dependency 'middleman-sprockets', '>= 4.0.0.rc.1'
   s.add_runtime_dependency 'execjs'
 
   s.add_development_dependency 'rake', '>= 10.4.2'
   s.add_development_dependency 'haml'
   s.add_development_dependency 'slim'
   s.add_development_dependency 'rubocop'
+  s.add_development_dependency 'kramdown'
+  s.add_development_dependency 'redcarpet'
 end
