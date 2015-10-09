@@ -31,6 +31,7 @@ module Middleman
               # Middleman::Syntax::Highlighter.highlight(el.value, language)
             end
           end
+        end
       end
 
       def after_configuration
