@@ -19,6 +19,7 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 2.1.1'
 
   s.add_runtime_dependency 'middleman-core', ['>= 4.0.0.rc.2']
+  s.add_runtime_dependency 'execjs'
 
   s.add_development_dependency 'rake', '>= 10.4.2'
   s.add_development_dependency 'haml'
