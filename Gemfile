@@ -5,8 +5,9 @@ gem 'middleman', github: 'middleman/middleman'
 # Specify your gem's dependencies in middleman-katex.gemspec
 gemspec
 
+gem 'rake'
+
 group :development do
-  gem 'rake'
   gem 'rdoc'
   gem 'yard'
 end
